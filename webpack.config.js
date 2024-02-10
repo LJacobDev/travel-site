@@ -19,7 +19,7 @@ module.exports = {
             {
                 //if a file is detected having .css as extention, use style-loader and css-loader
                 test: /\.css$/i,
-                use: ['style-loader','css-loader', {loader: 'postcss-loader', options: {postcssOptions: {plugins: postCSSPlugins}}}]
+                use: ['style-loader', { loader: 'css-loader', options: {url:false}}, {loader: 'postcss-loader', options: {postcssOptions: {plugins: postCSSPlugins}}}]
             }
         ]
     }
