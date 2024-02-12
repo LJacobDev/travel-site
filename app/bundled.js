@@ -16,7 +16,7 @@
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.css */ \"./app/assets/styles/styles.css\");\n\r\n//instead of using styles.css link in index.html head area,\r\n//it will load css from here via files made by webpack and css preprocessors\r\n\r\n\r\n//there was an alert(message) at the bottom of this script at one point, and it was noticed that the styling impact of this styles.css wasn't being applied until after the alert message was closed, as though it needed to run this whole script before the css could be applied\r\n//removing that alert() makes the css styling appear immediately, without the text flashing black first before changing colour\r\n\n\n//# sourceURL=webpack://travel-site/./app/assets/scripts/App.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.css */ \"./app/assets/styles/styles.css\");\n\r\n//instead of using styles.css link in index.html head area,\r\n//it will load css from here via files made by webpack and css preprocessors\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://travel-site/./app/assets/scripts/App.js?");
 
 /***/ }),
 
